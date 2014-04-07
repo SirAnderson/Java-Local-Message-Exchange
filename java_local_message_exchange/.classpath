@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Delle91/Downloads/Engineering/qpid-java-client-0.24/qpid-client-0.24/lib/qpid-client-0.24.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Delle91/Downloads/Engineering/qpid-java-client-0.24/qpid-client-0.24/lib/qpid-common-0.24.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Delle91/Downloads/Engineering/qpid-java-client-0.24/qpid-client-0.24/lib/slf4j-api-1.6.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Delle91/Downloads/Engineering/jms-api-1.1-rev-1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Delle91/Downloads/Engineering/slf4j-simple-1.6.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
