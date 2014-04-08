@@ -147,8 +147,8 @@ public class Main extends JFrame {
 		
 		panel1.removeAll();
 		
-		 final WriteRunnable  writeMessage = 
-                 new WriteRunnable();
+		 final Write  writeMessage = 
+                 new Write();
 		
 		model = new DefaultListModel<String>();
 		model.addElement("Hello " + user + "!");
@@ -211,7 +211,7 @@ public class Main extends JFrame {
 		BufferedImage myPicture = null;
 		Image pic = null;
 		try {
-			myPicture = ImageIO.read(new File("C:\\Users\\Delle91\\Pictures\\Qpid-logo2.png"));
+			myPicture = ImageIO.read( ClassLoader.getSystemResource( "qpid_messaging/Qpid-logo.png" ) );
 			pic = myPicture.getScaledInstance(152, 82, Image.SCALE_SMOOTH);
 		} catch (IOException e1) {
 			e1.printStackTrace();
@@ -290,13 +290,13 @@ public class Main extends JFrame {
 
 	}
 
-	class WriteRunnable {
+	class Write {
 		TopicPublisher topicPublisher = null;
 		TopicSession session = null;
 		TopicConnection connection = null;
 		Topic topic = null;
 
-		WriteRunnable() 
+		Write() 
 		{
 			TopicConnectionFactory connectionFactory = null;
 			try {
